@@ -6,10 +6,15 @@ if(isset($_POST['login'])) {
     $username = $_POST['username'];
     $password = $_POST['password'];
 
-    $checkuser = $conn->query("SELECT username from users WHERE username = '$username'");
-    if($checkuser->num_rows > 0) {
+    $sql = "SELECT username, password FROM users WHERE username = ?";
+    $stmt = $conn->prepare($sql);
+    $stmt->bind_param("s", $username);
+    $stmt->execute();
+    $result = $stmt->get_result();
+
+    if($result->num_rows > 0) {
         $user=$result->fetch_assoc();
-        if(password_verify($password, $user['password'])) {
+        if($password === $user['password']) {
             $_SESSION['username'] = $user['username'];
             $_SESSION['email'] = $user['email'];
             header("Location: admin-dashboard.php");

@@ -13,16 +13,16 @@
         </div>
         <div class="menu-right">
             <ul>
-                <li><a href="#">Derim2(a)</a></li>
-                <li><a href="#">Derim2(b)</a></li>
-                <li><a href="#">Derim3</a></li>
-                <li><a href="#">Derim4</a></li>
-                <li><a href="#">Derim5</a></li>
+                <li><a href="admin-db/admin-2a.php">Derim2(a)</a></li>
+                <li><a href="admin-db/admin-2b.php">Derim2(b)</a></li>
+                <li><a href="admin-db/admin-3.php">Derim3</a></li>
+                <li><a href="admin-db/admin-4.php">Derim4</a></li>
+                <li><a href="admin-db/admin-5.php">Derim5</a></li>
             </ul>
         </div>
         <div class="headerbar">
             <div class="header-content">
-                <h1>Welcome to Sakhang Database</h1>
+                <h1>Welcome to Sakhang Admin Database</h1>
             </div>
         <div>
     </div>

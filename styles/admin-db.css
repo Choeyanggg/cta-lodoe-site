@@ -1,0 +1,61 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', serif;
+    background: #3b98c6;
+}
+
+.container{
+    text-align: center; /* or whatever matches your banner image/logo */
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+.menu-right{
+    background: #543718;
+    color: #fff;
+    display: inline-block;   /* prevents full stretch */
+    max-width: 1456px;        /* set how wide you want */
+    width: 100%;             /* responsive */
+    margin: 0 auto;       /* centers it */
+    padding: 10px 20px;
+    text-align: left;  
+}
+
+.menu-right ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.menu-right ul li {
+    display: inline;  /* horizontal list */
+    margin-right: 20px;
+}
+
+.menu-right a {
+    color: #fff;
+    font-weight: bold;
+    padding: 0px 15px;
+    text-decoration: none;
+    font-size: 0.9em;
+    transition: 0.3s;
+}
+
+.headerbar{
+    background: #ccc;
+    display: inline-block;   /* prevents full stretch */
+    max-width: 1456px;        /* set how wide you want */
+    width: 100%;             /* responsive */
+    margin: 0 auto;       /* centers it */
+    padding: 0px 20px;
+    text-align: left;  
+}
+
+.header-content{
+    background: #fff;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 10px;
+    font-size: 0.5em;
+}

@@ -12,7 +12,7 @@
             <img src="../images/logo.png" alt="Logo">
         </div>
         <div class="menu-right">
-            <ul> 
+            <ul>
                 <li><a href="derim2a.php">Derim2(a)</a></li>
                 <li><a href="derim2b.php">Derim2(b)</a></li>
                 <li><a href="derim3.php">Derim3</a></li>

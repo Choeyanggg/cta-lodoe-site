@@ -23,10 +23,9 @@ unset($_SESSION['login_error']);
     <div class="login-box">
       <div class="login-header">Login Form</div>
       <form action="login.php" method="post">
-      <?php if (!empty($error)): ?>
-        <p class="error-message"><?= $error ?></p>
-      <?php endif; ?>
-      <form>
+        <?php if (!empty($error)): ?>
+          <p class="error-message"><?= $error ?></p>
+        <?php endif; ?>
         <div class="fields">
           <div class="field-row">
             <label for="username">Username</label>
@@ -36,7 +35,7 @@ unset($_SESSION['login_error']);
             <label for="password">Password</label>
             <input type="password" id="password" name="password" required>
           </div>
-          <button type="submit">Login</button>
+          <button type="submit" name="login">Login</button>
         </div>
       </form>
       <div class="login-footer"></div>
