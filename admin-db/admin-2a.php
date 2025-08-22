@@ -13,11 +13,11 @@
         </div>
         <div class="menu-right">
             <ul> 
-                <li><a href="derim2a.php">Derim2(a)</a></li>
-                <li><a href="derim2b.php">Derim2(b)</a></li>
-                <li><a href="derim3.php">Derim3</a></li>
-                <li><a href="derim4.php">Derim4</a></li>
-                <li><a href="derim5.php">Derim5</a></li>
+                <li><a href="admin-2a.php">Derim2(a)</a></li>
+                <li><a href="admin-2b.php">Derim2(b)</a></li>
+                <li><a href="admin-3.php">Derim3</a></li>
+                <li><a href="admin-4.php">Derim4</a></li>
+                <li><a href="admin-5.php">Derim5</a></li>
             </ul>
         </div>
         <div class="headerbar">
