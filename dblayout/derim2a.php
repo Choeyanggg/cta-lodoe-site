@@ -1,3 +1,6 @@
+<?php
+include '../config.php';
+?>
 <DOCTYPE html>
 <html lang="en">
 <head>
@@ -23,6 +26,10 @@
         <div class="headerbar">
             <div class="header-content">
                 <h1>Welcome to Sakhang Database</h1>
+                <div class="sub-header">
+                    <h2>Derim2(a)</h2>
+
+                </div>
             </div>
         <div>
     </div>
